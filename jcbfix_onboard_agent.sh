@@ -1,5 +1,5 @@
 #!/bin/sh
-#
+# test
 # Easy download/install/onboard script for the OMSAgent for Linux
 #
 # Values to be updated upon each new release
