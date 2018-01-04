@@ -1,12 +1,12 @@
 #!/bin/sh
-# fix #3
+# fix #4
 # Easy download/install/onboard script for the OMSAgent for Linux
 #
 # Values to be updated upon each new release
 GITHUB_RELEASE="https://github.com/Microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_GA_v1.4.2-125/"
 BUNDLE_X64="omsagent-1.4.2-125.universal.x64.sh"
 BUNDLE_X86="omsagent-1.4.2-125.universal.x86.sh"
-usage()
+usage() 
 {
     echo "usage: $1 [OPTIONS]"
     echo "Options:"
