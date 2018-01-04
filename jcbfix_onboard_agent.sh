@@ -1,5 +1,5 @@
 #!/bin/sh
-# test
+# test #2
 # Easy download/install/onboard script for the OMSAgent for Linux
 #
 # Values to be updated upon each new release
@@ -18,7 +18,6 @@ usage()
     echo "                             ex: opinsights.azure.us (for FairFax)"
     echo "  -? | -h | --help           shows this usage text."
 }
-
 # Extract parameters
 while [ $# -ne 0 ]
 do
