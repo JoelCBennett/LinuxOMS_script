@@ -1,10 +1,7 @@
 #!/bin/sh
-
 #
 # Easy download/install/onboard script for the OMSAgent for Linux
 #
-
-
 # Values to be updated upon each new release
 GITHUB_RELEASE="https://github.com/Microsoft/OMS-Agent-for-Linux/releases/download/OMSAgent_GA_v1.4.2-125/"
 BUNDLE_X64="omsagent-1.4.2-125.universal.x64.sh"
@@ -22,7 +19,6 @@ usage()
     echo "  -? | -h | --help           shows this usage text."
 }
 
-
 # Extract parameters
 while [ $# -ne 0 ]
 do
@@ -31,22 +27,22 @@ do
             topLevelDomain=$2
             shift 2
             ;;
-
+            
         -s|--shared)
             onboardKey=$2
             shift 2
             ;;
-
+            
         -w|--id)
             onboardID=$2
             shift 2
             ;;
-
+            
         -\? | -h | --help)
             usage `basename $0` >&2
             exit 0
             ;;
-
+            
          *)
             echo "Unknown argument: '$1'" >&2
             echo "Use -h or --help for usage" >&2
